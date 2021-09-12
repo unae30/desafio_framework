@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>&#129488; Menu - Framework</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="btn-abrir" onclick="abrirMenu()">&#9776; Abrir Menu</a>
+    </header>
+
+    <nav id="menu">
+      <a href="#" onclick="fecharMenu()">&times; Fechar Menu</a>
+
+      <li><a href="#" onclick="paginaInicio()">&#128126; Início</a></li>
+
+      <li><a href="#" onclick="paginaPostagem()">&#128203; Postagens</a></li>
+
+      <li><a href="#" onclick="paginaAlbuns()">&#128203; Álbuns</a></li>
+
+      <li><a href="#" onclick="paginaToDos()">&#128203; To-Do's</a></li>
+    </nav>
+
+    <!-- chamado do doc js -->
+    <script src="js/script.js"></script>
+
+    <main id="conteudo">
+      <h1 class="titulo-principal">Framework Padawans</h1>
+      <h1 class="episodio">Episódio V</h1>
+      <h3 class="subtitulo">Desafio da Ordem Jedi</h3>
+
+      <div class="textinho">
+        <p class="intro">
+          Olá! Aqui você tem acesso à tabelas com dados da API JSON Placeholder:
+        </p>
+        <p>&#9734; Postagens</p>
+        <p>&#9734; Álbuns</p>
+        <p>&#9734; To-Do's</p>
+        <p class="conclusao">
+          Para acessar navegue no MENU no canto superior esquerdo.
+        </p>
+      </div>
+
+      <img
+        class="img_jedi"
+        src="jedi.png"
+        alt="Uso não comercial"
+        width="540"
+        height="720"
+      />
+    </main>
+  </body>
+</html>

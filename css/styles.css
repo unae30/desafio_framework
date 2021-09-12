@@ -1,0 +1,130 @@
+body {
+  font-family: arial, helvetica, sans-serif;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*cabeçalho*/
+header {
+  background-color: rgb(98, 26, 170);
+  padding: 10px;
+}
+
+/*botao abrir*/
+header .btn-abrir {
+  color: white;
+  font-size: 25px;
+}
+
+/*cabeçalho paginas secundarias*/
+header .btn-voltar {
+  color: white;
+  font-size: 25px;
+}
+
+/*menu--------*/
+nav {
+  height: 100%;
+  width: 0px;
+  background-color: rgb(98, 26, 170);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1; /*indica que esse elemento sobrepoe aos outros*/
+  overflow: hidden; /*qaundo qualquer elemento filho sair ele vai se escnder*/
+  transition: width 0.3s;
+}
+
+/*topicos do menu*/
+nav a {
+  color: white;
+  font-size: 25px;
+  display: block;
+  padding: 12px 10px 12px 32px;
+  list-style: none;
+}
+
+/*efeito hover*/
+nav a:hover {
+  color: rgb(98, 26, 170);
+  background-color: white;
+}
+
+/*remove markers*/
+nav li {
+  list-style: none;
+}
+
+main {
+  padding: 10px;
+  transition: margin-left 0.5s;
+}
+
+.titulo-principal {
+  margin-block-end: 0px;
+  font-size: 72px;
+  text-align: center;
+  align-items: center;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+    0 20px 20px rgba(0, 0, 0, 0.15);
+  color: rgb(254, 154, 68);
+}
+
+.episodio {
+  margin-block-end: 0px;
+  margin-block-start: 0px;
+  font-size: 72px;
+  text-align: center;
+  align-items: center;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+    0 20px 20px rgba(0, 0, 0, 0.15);
+  color: rgb(254, 154, 68);
+}
+
+.subtitulo {
+  margin-block-start: 0.5em;
+  margin-block-end: 1em;
+  font-size: 48px;
+  text-align: center;
+  align-items: center;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+    0 20px 20px rgba(0, 0, 0, 0.15);
+  color: #06ee89;
+}
+
+p {
+  text-align: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+main .textinho {
+  padding: 24px 0px 0px 0px;
+}
+
+main .intro {
+  font-weight: bold;
+}
+
+main .conclusao {
+  font-weight: bold;
+}
+
+.img_jedi {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px 0px 0px 0px;
+}

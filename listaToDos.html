@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>&#129488; Lista de To-Do's</title>
+    <style>
+      td,
+      tr,
+      table {
+        border: 1px solid black;
+      }
+    </style>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="btn-voltar" onclick="paginaInicio()"
+        >&#9756; Voltar ao Menu</a
+      >
+    </header>
+
+    <table id="tabela_todo">
+      <td>Id User</td>
+      <td>Id</td>
+      <td>Title</td>
+      <td>Completed</td>
+    </table>
+
+    <!-- chamado da API -->
+    <script>
+      fetch("https://jsonplaceholder.typicode.com/todos")
+        .then((response) => response.json())
+        .then((json) => console.log(json));
+    </script>
+
+    <!-- chamado do doc js -->
+    <script src="js/scriptToDo.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
